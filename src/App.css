@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+  cursor: pointer;
+}
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.btn-one{
+  width: 150px;
+  height: 30px;
+  margin: 100px 100px;
+  color: whitesmoke;
+  background-color: peru;
+  border: none;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.btn-one:hover{
+  transform: scale(1.1);
+}
+.btn-two{
+  width: 150px;
+  height: 30px;
+  color: white;
+  background-color: sandybrown;
+  border: none;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.btn-two:hover{
+  transform: scale(1.1);
+}
